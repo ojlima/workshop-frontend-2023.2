@@ -1,0 +1,42 @@
+
+body{
+    background-image: url('/img/bg-mid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+    
+}
+
+
+.container-home {
+  padding: 20px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+
+.card-container{
+    width: 80%;
+    max-width: 1400px;
+    padding: 5rem 2.5rem;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem  rgba(0, 0, 0, 0.2); 
+    background-color: rgba(0, 0, 0, 0.1);
+
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    color: aliceblue;
+
+
+}
+
+
+
+
+

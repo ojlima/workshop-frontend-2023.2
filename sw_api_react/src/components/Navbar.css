@@ -1,0 +1,14 @@
+.custom-link {
+   color: #ffffff; /* Cor dos links */
+   text-decoration: none; /* Remover sublinhado padrão */
+   padding: 10px 15px; /* Espaçamento interno dos links */
+   transition: color 0.3s; /* Transição de cor suave */
+ }
+ 
+ .custom-link:hover {
+   color: #131f3e; 
+ }
+ 
+ .custom-link:active {
+   color: #ff0000; /* Cor quando o link está ativo (clique) */
+ }

@@ -1,0 +1,29 @@
+
+body{
+    padding-top: 50px;
+}
+.card {
+    display: flex;
+    flex-direction: row; /* Alterando para uma disposição em linha */
+    align-items: center; /* Alinhando verticalmente os itens no centro */
+    color: #979191;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .card img {
+    order: 1; /* Define a ordem do elemento de imagem para 1 (à direita) */
+    margin-left: 10px; /* Espaço à esquerda da imagem */
+    max-width: 100px; /* Largura máxima da imagem */
+  }
+
+  .card .info {
+    order: 0; /* Define a ordem dos elementos de informação para 0 (à esquerda) */
+    flex-grow: 1; /* Permite que as informações ocupem todo o espaço disponível */
+  }
